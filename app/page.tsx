@@ -3,10 +3,13 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* Header */}
       <header className="flex items-center justify-between px-8 py-6 border-b border-zinc-800">
-        <div className="text-2xl font-bold tracking-tight">
+        <div className="text-4xl font-bold tracking-tight">
           <span className="text-white">ἀρ</span>
           <span className="text-red-800">χ</span>
           <span className="text-white">ή</span>
+          <div className="text-xs font-light tracking-widest text-zinc-500 uppercase mt-0.5">
+            Innovations
+          </div>
         </div>
         <nav className="flex gap-8 text-sm text-zinc-400">
           <a href="#projects" className="hover:text-white transition">Projects</a>
@@ -16,7 +19,7 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="flex flex-col items-center justify-center text-center px-8 py-32">
+      <section className="flex flex-col items-center justify-center text-center px-8 py-20">
         <h1 className="text-5xl font-bold mb-6">
           Small beginnings.<br />
           <span className="text-red-800">Real solutions.</span>
