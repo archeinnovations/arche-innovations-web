@@ -51,8 +51,13 @@ export default function Home() {
               <span key={tag} className="text-xs bg-zinc-800 text-zinc-300 px-3 py-1 rounded-full">{tag}</span>
             ))}
           </div>
-          <div className="text-sm text-zinc-500 italic">
-            Scan it. Model it. Print it. Fix it. Share it.
+          <div className="flex items-center justify-between mt-2">
+            <div className="text-sm text-zinc-500 italic">
+              Scan it. Model it. Print it. Fix it. Share it.
+            </div>
+            <a href="/projects/ebo-mini-track" className="text-sm text-red-800 hover:text-red-700 transition font-medium">
+              View Project →
+            </a>
           </div>
         </div>
       </section>
