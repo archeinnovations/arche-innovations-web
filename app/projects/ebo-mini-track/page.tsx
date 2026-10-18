@@ -1,5 +1,12 @@
 import Image from "next/image"
 import Link from "next/link"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "EBO Mini Replacement Track",
+  description:
+    "Our Shiba Inu chewed through the EBO Mini's track, so we 3D scanned it, cleaned it up in Fusion 360, and printed a working replacement in flexible TPU.",
+}
 
 export default function EboMiniTrack() {
   return (
